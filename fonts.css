@@ -1,0 +1,8 @@
+/* CSS3 @font-face demo. Don't steal these fonts, please. */
+
+	@font-face {
+		font-family:"Sorts Mill Goudy";
+		src:url('fonts/OFLGoudyStM.OTF');
+		font-weight:normal;
+		}			
+			
