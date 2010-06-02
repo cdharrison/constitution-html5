@@ -10,26 +10,24 @@ Author URI:
 	body { background:#e6e6e6; color:#333; font:normal 62.5%/1.4 georgia,times,serif; margin:1em; text-align:center; }
 	
 	header { display:block; min-width:400px; text-align:left; width:100%; }
-	header h1 { font-family:"Sorts Mill Goudy"; font-size:600%; font-weight:normal; line-height:.6; margin:0 0 .25em; }
+	header h1 { font:normal 400% 'Sorts Mill Goudy'; line-height:.9; margin:0 0 .25em; }
 	
 	nav { display:block; margin:1em auto; min-height:50px; min-width:400px; width:50%; }
-	nav ol { list-style:none; text-indent:0; }
-	nav ol li { display:inline; }
-	nav ol li a {
+	nav a {
 		background:#999;
 		border-width:1px solid #333;
 		border-radius:5px;
 		-moz-border-radius:5px;
 		-webkit-border-radius:5px;
 		color:#fff;
-		display:block;
+		display:inline-block;
 		float:left;
 		font:bold 100% 'segoe ui',helvetica,arial,geneva,sans-serif;
 		margin:0 .5em 0 0;
 		padding:.5em 1em;
 		text-decoration:none;
 		}
-	nav ul li a:hover {
+	nav a:hover {
 		background:#09f;
 	}
 	
