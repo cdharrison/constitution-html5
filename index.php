@@ -12,17 +12,9 @@
 			HTML5 Reference: http://w3schools.com/tags/html5.asp
 			http://orderedlist.com/articles/structural-tags-in-html5
 		-->
-		<!--
-			IE has to "learn" our new HTML5 elements:
-			http://ejohn.org/blog/html5-shiv/			
-		-->
-		<script>
-			document.createElement('header');
-			document.createElement('nav');
-			document.createElement('article');
-			document.createElement('section');
-			document.createElement('footer');
-		</script>
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 
 		<!-- Have a Mint, won't you? -->
 		<script src="/mint/?js"></script>
@@ -31,18 +23,16 @@
 
 	<body>
 
-		<nav>
-			<ol>
-				<li><a href="#i">Article I</a></li>
-				<li><a href="#ii">Article II</a></li>
-				<li><a href="#iii">Article III</a></li>
-				<li><a href="#iv">Article IV</a></li>
-				<li><a href="#v">Article V</a></li>
-				<li><a href="#vi">Article VI</a></li>
-			</ol>		
-		</nav>
-		
 		<section id="constitution">
+	
+			<nav>
+				<a href="#i">Article I</a>
+				<a href="#ii">Article II</a>
+				<a href="#iii">Article III</a>
+				<a href="#iv">Article IV</a>
+				<a href="#v">Article V</a>
+				<a href="#vi">Article VI</a>		
+			</nav>
 	
 			<header>
 				<h1>The Constitution of the United States of America</h1>
@@ -61,7 +51,7 @@
 			<section id="articles">
 				<h2>The Articles</h2>
 			
-				<article id="i">
+				<section id="i">
 				
 					<h3>Article I - The Legislative Branch</h3>
 				
@@ -359,9 +349,9 @@
 						
 					</section>
 	
-				</article><!-- /#i -->
+				</section><!-- /#i -->
 				
-				<article id="ii">
+				<section id="ii">
 				
 					<h3>Article II - The Executive Branch</h3>
 						
@@ -481,9 +471,9 @@
 						
 					</section>
 					
-				</article><!-- /#ii -->
+				</section><!-- /#ii -->
 				
-				<article id="iii">
+				<section id="iii">
 				
 					<h3>Article III - The Judicial Branch</h3>
 				
@@ -539,9 +529,9 @@
 						
 					</section>
 					
-				</article><!-- /#iii -->
+				</section><!-- /#iii -->
 				
-				<article id="iv">
+				<section id="iv">
 				
 					<h3>Article IV - The States</h3>
 				
@@ -599,9 +589,9 @@
 						
 					</section>
 					
-				</article><!-- /#iv -->
+				</section><!-- /#iv -->
 				
-				<article id="v">
+				<section id="v">
 				
 					<h3>Article V - Amendment</h3>
 					<section id="a5s1">		
@@ -618,9 +608,9 @@
 						without its Consent, shall be deprived of its equal Suffrage in the Senate.</p>
 					</section>
 
-				</article><!-- /#v -->
+				</section><!-- /#v -->
 				
-				<article id="vi">
+				<section id="vi">
 				
 					<h3>Article VI - Debts, Supremacy, Oaths</h3>
 					<section id="a6s1">			
@@ -642,9 +632,9 @@
 						States.</p>
 					</section>
 						
-				</article><!-- /#vi -->
+				</section><!-- /#vi -->
 				
-				<article id="vii">
+				<section id="vii">
 	
 					<h2>Article VII - Ratification</h2>
 
@@ -677,7 +667,7 @@
 
 					</section>
 	
-				</article><!-- /#a7s1 -->
+				</section><!-- /#a7s1 -->
 	
 			</section><!-- /#articles -->
 
